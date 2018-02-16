@@ -1,0 +1,372 @@
+/*
+CTC Separate Stylesheet
+Updated: 2018-16-01 00:59:53
+Theme Name: Depaul iD Lab
+Theme URI: https://www.mageewp.com/alchem-theme.html
+Template: alchem
+Author: Gerard Panganiban & Tanya Liu
+Author URI: http://depaulidlab.com
+Description: This is the theme for the new DePaul iD Lab website.
+Tags: one-column,two-columns,custom-background,custom-header,custom-menu,theme-options,left-sidebar,translation-ready,editor-style,featured-images,full-width-template,custom-colors,threaded-comments,buddypress,e-commerce
+Version: 1.6.90
+*/
+@import url('../alchem/style.css');
+@import url('fonts/font.css');
+
+body,
+button,
+input,
+select,
+textarea {
+	color: #555;
+	font-family: 'Avenir-Book', sans-serif;
+	font-size: 14px;
+	line-height: 1.8;
+	outline: none;
+}
+*:focus {
+    outline: none;
+}
+a:hover,a:active {
+    outline: 0;
+}
+
+button:focus{
+	border:none;
+	outline:0;
+}
+
+
+.site-nav > ul > li.menu-item-search-icon {display:none;}
+.site-nav > ul > li.current > a {color:#000 !important;font-weight:bold !important;border:0;}
+.site-nav > ul > li.current > a:focus {
+    outline: none !important;
+}
+
+.site-nav .sub-menu li a:hover {
+	background-color: #00af99;
+    color: #fff;
+}
+.site-nav li ul {
+	width: 180px !important;
+}
+.site-nav li > ul {
+	left: unset;
+	right: 0;
+}
+
+.magee-feature-box.style1 .icon-box, 
+.magee-feature-box.style4 .icon-box, 
+.magee-feature-box.style1 img, 
+.magee-feature-box.style4 img {
+	width: auto;
+	height: 108px;
+}
+.magee-feature-box h3 {
+    font-size: 28px;
+    font-weight: 600;
+}
+.magee-heading {margin-bottom: 6px !important;}
+.magee-heading .heading-inner {
+    font-family: 'Avenir-Black', sans-serif;
+    font-size: 0.78em;
+}
+.magee-heading .heading-inner span {
+    font-size: 0.9em;
+	font-family: 'Avenir-Light', sans-serif;
+}
+#section-1 .section-content p.alchem_section_0_sub_title {
+    font-family: 'Avenir-Light', sans-serif;
+    font-weight: 100;
+    font-size: 2.0em;
+}
+#alchem-home-sections .alchem-home-section-0 a.magee-btn-normal {
+	background-color: #00af99;
+    color: #fff !important;
+    border: 0;
+    border-radius: 6px;
+    padding: 20px 48px;
+    font-size: 22px;
+	-webkit-transition-duration: 0.5s;
+  	transition-duration: 0.5s;
+}
+#alchem-home-sections .alchem-home-section-0 a.magee-btn-normal:hover {
+	background-color: #424242;
+	-webkit-transition-duration: 0.5s;
+  	transition-duration: 0.5s;
+}
+#alchem-home-sections .alchem-home-section-9 {
+	background-color: transparent !important;
+}
+h2.section-title {
+	font-size: 3.4em;
+	 margin: 0 0 30px;
+
+}
+h2.section-title span {
+	font-family: 'Avenir-Medium', sans-serif;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+.alchem-home-style-0 .section-subtitle {
+    text-align: center;
+    font-size: 1.8em;
+    width: 80%;
+    margin: 0 auto;
+    color: #949494;
+}
+.divider.center {display:none;}
+
+.magee-feature-box h3 {
+    font-size: 30px;
+    font-family: 'Avenir-Heavy', sans-serif;
+    color: #434343;
+}
+.magee-feature-box .feature-content p {
+	font-family: 'Avenir-Light', sans-serif;
+    font-size: 1.5em;
+    color: #949494;
+    width: 78%;
+    margin: 0 auto .8em;
+    line-height: 30px;
+}
+#section-2,
+#section-3 {border-bottom: 1px solid #E4E4E4;}
+
+#alchem-home-sections #section-2 #section-10 {
+    border-bottom: 1px solid #fff;
+    padding: 0 0 42px;
+}
+#alchem-home-sections #section-2 .magee-feature-box h4 {
+    font-family: 'Avenir-Medium', sans-serif;
+	padding: 0 0 10px;
+}
+#alchem-home-sections #section-2 .magee-feature-box .feature-content p {font-size: 1.3em;}
+#alchem-home-sections #section-2 {
+     background-color: #959595;
+     color: #fff;
+     padding-bottom: 40px;
+}
+#alchem-home-sections #section-2 h2.section-title {
+	font-size: 2.5em;
+}
+#alchem-home-sections #section-2 #section-10 h2.section-title {
+     color: #fff !important;
+}
+#alchem-home-sections #section-2 .magee-feature-box h3 {font-family: 'Avenir-Bold', sans-serif;color: #f3f3f3;font-size: 3em;}
+#alchem-home-sections #section-2 .magee-feature-box .feature-content p {color: #fff;}
+
+#alchem-home-sections #section-60 {
+	background-color: #959595;
+    color: #fff;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-bottom: 40px;
+}
+#alchem-home-sections #section-60 h2 {
+    color: #fff;
+}
+
+/* Meet the team */
+#alchem-home-sections #section-70 {
+	background-color: #fcfcfc !important;
+    border-top: 1px solid #E4E4E4;
+    padding-top: 60px;
+}
+#section-7 h2,
+#section-7 .section-subtitle,
+#section-70 h2,
+#section-70 .section-subtitle {
+	text-align: right !important;
+    width: 100%;
+}
+#section-7 h2, #section-70 h2 {color:#333333;}
+#section-7 .section-subtitle,
+#section-70 .section-subtitle {
+    color: #949494;
+    width: 88%;
+    float: right;
+    line-height: 36px;
+    margin: 0 0 42px;
+}
+#sc_our_team {text-align:center;}
+
+.grid#sc_our_team .sc_team_member .sc_team_member_name,
+.grid#sc_our_team .sc_team_member .sc_team_member_jobtitle {line-height: 22px;}
+.grid#sc_our_team .sc_team_member .sc_team_member_jobtitle b {display:block;}
+
+#section-70 #sc_our_team .sc_team_member_inner img {width: 200px !important;}
+#section-70 #sc_our_team.sc-col4 .sc_team_member {vertical-align: top;}
+
+.sc_team_member_name {margin-top:10px;}
+.grid#sc_our_team .sc_team_member {
+    display:inline-block;
+	margin-bottom: 20px;
+	vertical-align: top;
+}
+#sc_our_team .sc_team_member_inner {
+    text-align: center;
+    font-size: 1.4em;
+}
+.sc_team_member_jobtitle {
+	color: #949494 !important;
+	font-size: 0.7em;
+}
+
+/* Partners */
+#section-10 img {
+	width: 75%;
+    max-height: 112px;
+
+}
+
+/* Forms */
+#section-80 h2 {
+    font-family: 'Avenir-Black', sans-serif;
+    font-size: 3.4em;
+    font-weight: bold;
+    padding: 0 0 8px;
+    width: 100%;
+    text-align: center;
+}
+#section-80 .alchem_section_8_model p {
+	text-align: center;
+    font-size: 1.8em;
+    width: 60%;
+    margin: 0 auto;
+    color: #363636;
+}
+#section-80 .form-container {text-align:center;}
+#section-80 div.row {
+    width: 90%;
+    display: inline-block;
+    margin: 0 auto;
+	padding: 10px 0;
+}
+#section-80 div.row div {
+	width: 30%;
+    display: inline;
+    padding: 0 0.3em;
+}
+#section-80 div.row label {
+	text-align: left;
+}
+#section-80 div.row p {
+	width: 100%;
+}
+#section-80 div.wpcf7 input[type="submit"] {
+	background-color: #00af99;
+    color: #fff !important;
+    border: 0;
+    border-radius: 6px;
+    padding: 8px 60px;
+    font-size: 16px;
+    margin-top: 20px;
+    float: right;
+	margin-right: 6%;
+	-webkit-transition-duration: 0.5s;
+  	transition-duration: 0.5s;
+}
+#section-80 div.wpcf7 input[type="submit"]:hover {
+	background-color: #666666;
+	-webkit-transition-duration: 0.5s;
+  	transition-duration: 0.5s;
+}
+#section-80 form.wpcf7-form {
+	/*text-align:center;*/
+}
+#section-80 .section-content p {text-align:center;}
+#section-10 {margin:0 0 48px;}
+#section-10 .row {text-align:center;}
+#section-10 h2.section-title {
+    font-family: 'Avenir-Medium', sans-serif;
+    font-size: 2.0em;
+    font-weight: bold;
+    color: #555555;
+    margin: 46px auto -50px;
+    text-align: center;
+}
+#section-10 .col-md-3 {width:20%;float:left;} 
+
+footer .contact-info {    
+	width: 40%;
+    float: left;
+    margin: 0 0 0 5%;
+}
+footer .contact-info h2 {
+    font-family: 'Avenir-Black', sans-serif;
+    text-transform: uppercase;
+    font-size: 2.2em;
+}
+footer .contact-info ul {
+	list-style: none;
+    font-size: 1.2em;
+	padding:0;
+	margin:0;
+}
+footer .depaul-cdm {
+	text-align: right;
+    width: 40%;
+    float: right;
+    margin: 1.3% 5% 0 0;
+}
+footer .alchem_footer_social_icon_1 {width: 100%;display: inline-block;}
+footer .alchem_footer_social_icon_1 ul.footer-sns {margin-bottom:0;}
+footer .copyright {text-align:center;}
+footer .footer-info-area {
+    background-color: #666666;
+    padding-bottom: 10px;
+}
+@media screen and (min-width: 920px) {
+	.overlay .main-header .site-nav > ul > li:hover > a {
+    	border-color: #424242 !important;
+	}
+	.site-nav > ul > li:hover > a {
+    	border-color: #424242 !important;
+	}
+}
+@media screen and (min-width: 919px) {
+	.site-nav > ul > li a {
+	    border-bottom: 4px solid transparent !important;
+	}
+}
+@media (min-width: 768px) {
+	#sc_our_team.sc-col4 .sc_team_member {
+    	width: 24%;
+	}
+	#section-70 #sc_our_team.sc-col4 .sc_team_member {width: 19%;}
+}
+@media (max-width: 768px) {
+	.site-nav li ul {
+		width: 100% !important;
+	}
+	.alchem-home-style-0.alchem-home-section-0 .magee-heading .heading-inner {
+		font-size: 70%;
+	}
+	.magee-heading .heading-inner span {
+    	font-size: 0.7em;
+	}
+	#section-1 .section-content p.alchem_section_0_sub_title {
+    	font-size: 1.6em;
+    	line-height: 40px;
+	}
+	h2.section-title {font-size: 2.5em;}
+	h2.section-title span {font-size: 0.9em;}
+	.alchem-home-style-0 .section-subtitle {width:100%;font-size: 1.4em;}
+	#section-80 h2 {font-size: 2.8em;}
+	#section-80 .alchem_section_8_model p {width: 100%;font-size: 1.6em;}
+	footer .contact-info {width: 100%;}
+	footer .depaul-cdm {
+		width: 100%;
+    	margin: 6% 0;
+    	text-align: center;
+	}
+	#section-10 .col-md-3 {
+    	width: 100%;
+    	text-align: center;
+	}
+	#section-10 img {
+    	width: 55%;
+    	margin-bottom: 14px;
+	}
+}
